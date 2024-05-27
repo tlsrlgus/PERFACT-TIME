@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#timer {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#rankings {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#rankings li {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#first {
+    /* Add specific styles for the first ranked item here */
+}
+
+#second {
+    /* Add specific styles for the second ranked item here */
+}
+
+#third {
+    /* Add specific styles for the third ranked item here */
+}
+
+#fourth {
+    /* Add specific styles for the fourth ranked item here */
+}
+
+#fifth {
+    /* Add specific styles for the fifth ranked item here */
+}
+
+#button {
+    padding: 30px 60px; /* 큰 크기로 조정 */
+    font-size: 2em; /* 버튼 텍스트 크기 */
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

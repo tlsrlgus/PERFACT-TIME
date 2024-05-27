@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timer 및 순위</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  .list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .column {
+    margin: 0 10px;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+</style>
+</head>
+<body>
+
+<div id="timer">0:000</div>
+
+<div class="list-container">
+  <div class="title">Perfect Timer Masters</div>
+  <div class="column">
+    <ul id="rankings-left">
+      <li id="first">1st Master: TBD</li>
+      <li id="second">2nd Master: TBD</li>
+      <li id="third">3rd Master: TBD</li>
+      <li id="fourth">4th Master: TBD</li>
+      <li id="fifth">5th Master: TBD</li>
+    </ul>
+  </div>
+  <div class="column">
+    <ul id="rankings-right">
+      <li id="sixth">6th Master: TBD</li>
+      <li id="seventh">7th Master: TBD</li>
+      <li id="eighth">8th Master: TBD</li>
+      <li id="ninth">9th Master: TBD</li>
+      <li id="tenth">10th Master: TBD</li>
+    </ul>
+  </div>
+</div>
+
+<div class="list-container">
+  <ul id="info">
+    <br>
+    <li>TBD는 미정, 추후 결정의 의미를 가지고 있습니다</li>
+  </ul>
+</div>
+
+<button id="button">클릭</button>
+<button id="adminButton">Created by YJH computer club C++</button>
+
+<script src="script.js"></script>
+<script src="admin.js"></script>
+
+</body>
+</html>
